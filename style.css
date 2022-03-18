@@ -1,0 +1,84 @@
+
+body>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 500px;
+    width: 325px;
+    margin: 5% 3% ;
+    background-color: gainsboro;
+    border-radius: 5%;
+}
+
+.card-header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    height:40px;
+    width: 40px;
+    margin: 0% 5%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.card-header div{
+    font-size: 10px;
+    color: #fff;
+}
+.card-header div span{
+    font-size: 16px;
+    color: black;
+}
+.card-header>p{
+    font-size: 54px;
+    padding-left: 30%;
+    padding-bottom: 10%;
+    cursor: default;
+}
+
+.img{
+    height: 60%;
+    width: 100%;
+}
+.like{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.like img{
+    padding:0% 1%;
+}
+
+.description{
+    margin: 0% 2%;
+    font-size: 14px;
+}
+.description span{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width:768px) {
+    body>div{
+        justify-content: flex-start;
+    }
+
+    body>div .card{
+        margin-bottom: 5%;
+    }
+}
+
+@media  screen and(max-width:375)  {
+
+    
+}
